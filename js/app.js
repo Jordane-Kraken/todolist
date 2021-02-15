@@ -26,7 +26,7 @@ const app = {
 
   createImg: () => {
     const img = document.createElement('img');
-    img.src = '../assets/images/clipart.png';
+    img.src = './assets/images/todolist.png';
     img.id = 'img';
     const divImg = document.createElement('div');
     divImg.id= 'divImg';
