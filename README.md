@@ -1,2 +1,2 @@
 # todolist
-Todo list
+Réalisée avec JS

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  background-image: url('../assets/images/cool-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Inconsolata', monospace, sans-serif;
+}
+
+#todo-title {
+text-align: center;
+margin: 0.5em;
+font-family: 'Inconsolata', monospace, sans-serif;
+font-size: 4em;
+}
+
+#img {
+  width: 5%;
+}
+#divImg {
+  text-align: center;
+  margin: 1em;
+}
+
+#divButton {
+  text-align: center;
+}
+
+#button {
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 0.3em;
+  font-family: 'Inconsolata', monospace, sans-serif;
+  background-color: white;
+  margin-top: 1em;
+}
+
+#todo-form {
+  width: 500px;
+  margin: 3em auto;
+  //TROUBLE Top Right Bottom Left TRouBLe
+  margin: 1em 2em 3px 5px;
+}
+
+#todo-input {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  height: 3em;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  font-family: 'Inconsolata', monospace, sans-serif;
+}
+
+#todo-counter {
+  margin-top: 2em;
+  font-size: 1.3em;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding: .5em 0;
+  width: 500px;
+  margin: 3em auto;
+}
+
+#todo-list {
+  margin-top: 1em;
+  width: 500px;
+  margin: 3em auto;
+}
+
+.todo-item {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: .3em;
+  font-size: 1.2em;
+  padding: 1em;
+  margin: .5em 0;
+}
+
+.todo-item--done {
+  opacity: 0.5;
+}
+
+.todo-item--done .todo-item-text {
+  text-decoration: line-through;
+}
+
+.todo-item-text {
+  margin-left: .5em;
+}
