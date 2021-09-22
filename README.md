@@ -1,2 +1,7 @@
-# todolist
-Réalisée avec JS
+# Todolist 🗒️
+Permet de lister les tâches à réaliser<br>
+
+## Technologies
+- Html
+- CSS
+- JS
