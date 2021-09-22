@@ -60,7 +60,7 @@ const app = {
   createCount: () => {
     app.counter = document.createElement('div');
     app.counter.id = 'todo-counter';
-    app.counter.textContent = '0 tâches en cours';
+    app.counter.textContent = '0 tâche en cours';
     app.todo.appendChild(app.counter);
   },
   createList: () => {
